@@ -2,6 +2,7 @@
     "name": "pangaea-syntax-highlight",
     "displayName": "Pangaea Syntax Highlight",
     "description": "Syntax highlighter for Pangaea programming language",
+    "publisher": "Syuparn",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.45.0"
