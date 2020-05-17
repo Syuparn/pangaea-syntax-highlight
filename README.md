@@ -1,6 +1,7 @@
 # pangaea-syntax-highlight README
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![Extention Version](https://img.shields.io/badge/version-0.0.1-green.svg)](https://marketplace.visualstudio.com/items?itemName=Syuparn.pangaea-syntax-highlight)
 
 VSCode Syntax Highlighting for Pangaea Language
 
