@@ -19,6 +19,17 @@ VSCode Syntax Highlighting for Pangaea Language
 - `m`: new method-form Func object (`m{|| }`)
 - `m`: new method-form Iter object (`m<{|| }>`)
 
+> **Tips:** These snippets recommend **tabsize 2**.
+> 
+> To change tabsize, open `settings.json` by `Preferences Open Settings(JSON)`
+> in the command palette and add
+> 
+> ```
+> "[pangaea]": {
+>     "editor.tabSize": 2
+> }, 
+> ```
+
 ## Release Notes
 
 ### 0.0.1
