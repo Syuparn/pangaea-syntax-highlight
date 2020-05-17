@@ -10,7 +10,7 @@ VSCode Syntax Highlighting for Pangaea Language
 
 ### Syntax Highlighting
 
-\!\[highlighting\]\(images/highlighting.png\)
+![highlighting](images/highlighting.png)
 
 ### Snippets
 
@@ -21,6 +21,6 @@ VSCode Syntax Highlighting for Pangaea Language
 
 ## Release Notes
 
-### 0.1.0
+### 0.0.1
 
 Initial release of pangaea-syntax-highlight
