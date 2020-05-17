@@ -1,0 +1,29 @@
+{
+    "name": "pangaea-syntax-highlight",
+    "displayName": "Pangaea Syntax Highlight",
+    "description": "Syntax highlighter for Pangaea programming language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pangaea",
+            "aliases": ["Pangaea", "pangaea"],
+            "extensions": [".pangaea"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pangaea",
+            "scopeName": "source.pangaea",
+            "path": "./syntaxes/pangaea.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "pangaea",
+            "path": "./snippets/pangaea.json"
+        }]
+    }
+}

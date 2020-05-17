@@ -1,0 +1,22 @@
+{
+    "Func": {
+        "prefix": ["func"],
+        "body": ["{|$0|", "  $1", "}"],
+        "description": "func object"
+    },
+    "Iter": {
+        "prefix": ["iter"],
+        "body": ["<{|$0|", "  $1", "}>"],
+        "description": "iter object"
+    },
+    "Method": {
+        "prefix": ["m"],
+        "body": ["m{|$0|", "  $1", "}"],
+        "description": "method func"
+    },
+    "Method Iter": {
+        "prefix": ["m"],
+        "body": ["m<{|$0|", "  $1", "}>"],
+        "description": "method iter"
+    }
+}

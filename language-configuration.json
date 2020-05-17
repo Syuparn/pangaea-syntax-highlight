@@ -1,0 +1,38 @@
+{
+    "comments": {
+        // symbol used for single line comment. Remove this entry if your language does not support line comments
+        "lineComment": "#"
+    },
+    // symbols used as brackets
+    "brackets": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["<{", "}>"]
+    ],
+    // symbols that are auto closed when typing
+    // NOTE: combined parens (i.e. `m{}`) do not have to be registered
+    // because auto closing can work without prefixes
+    "autoClosingPairs": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""],
+        ["`", "`"],
+        // Iter
+        ["<{", "}>"],
+    ],
+    // symbols that can be used to surround a selection
+    "surroundingPairs": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""],
+        ["`", "`"],
+        // Iter
+        ["<{", "}>"],
+        // function args
+        ["|", "|"]
+    ],
+    "autoCloseBefore": ";:.,=}])>` \n\t"
+}
