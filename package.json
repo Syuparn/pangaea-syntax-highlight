@@ -4,7 +4,7 @@
     "description": "Syntax highlighter for Pangaea programming language",
     "publisher": "Syuparn",
     "icon": "images/pangaroo.png",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.45.0"
     },
@@ -16,20 +16,31 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "pangaea",
-            "aliases": ["Pangaea", "pangaea"],
-            "extensions": [".pangaea"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "pangaea",
-            "scopeName": "source.pangaea",
-            "path": "./syntaxes/pangaea.tmLanguage.json"
-        }],
-        "snippets": [{
-            "language": "pangaea",
-            "path": "./snippets/pangaea.json"
-        }]
+        "languages": [
+            {
+                "id": "pangaea",
+                "aliases": [
+                    "Pangaea",
+                    "pangaea"
+                ],
+                "extensions": [
+                    ".pangaea"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "pangaea",
+                "scopeName": "source.pangaea",
+                "path": "./syntaxes/pangaea.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "pangaea",
+                "path": "./snippets/pangaea.json"
+            }
+        ]
     }
 }
