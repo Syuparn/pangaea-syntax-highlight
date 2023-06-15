@@ -1,7 +1,7 @@
 # pangaea-syntax-highlight README
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
-[![Extention Version](https://img.shields.io/badge/version-0.0.2-green.svg)](https://marketplace.visualstudio.com/items?itemName=Syuparn.pangaea-syntax-highlight)
+[![Extention Version](https://img.shields.io/badge/version-0.2.0-green.svg)](https://marketplace.visualstudio.com/items?itemName=Syuparn.pangaea-syntax-highlight)
 
 VSCode Syntax Highlighting for Pangaea Language
 
@@ -30,9 +30,3 @@ VSCode Syntax Highlighting for Pangaea Language
 >     "editor.tabSize": 2
 > }, 
 > ```
-
-## Release Notes
-
-### 0.0.1
-
-Initial release of pangaea-syntax-highlight
