@@ -121,7 +121,7 @@
 		"rawStrings": {
 			"name": "string.quoted.other.pangaea",
 			"begin": "`",
-			"end": "`"
+			"end": "(?<!\\\\)`"
 		},
 		"charStrings": {
 			"name": "string.quoted.other.pangaea",
@@ -141,7 +141,7 @@
 		},
 		"argVariables": {
 			"name": "variable.language.pangaea",
-			"match": "\\\\[0-9]*"
+			"match": "\\\\[0-9]*(?!`)"
 		},
 		"variables": {
 			"name": "variable.parameter.pangaea",
