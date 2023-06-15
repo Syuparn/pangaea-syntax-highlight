@@ -30,3 +30,18 @@ VSCode Syntax Highlighting for Pangaea Language
 >     "editor.tabSize": 2
 > }, 
 > ```
+
+# Development
+## Deploy to marketplace
+
+```bash
+# 1. install vsce
+$ npm install --global @vscode/vsce
+
+# 2. create a new token via `https://dev.azure.com/${your_account}/_usersSettings/tokens`
+# - Organization: All accessible organizations
+# - Scopes: Marketplace (Acquire, Manage)
+
+# 3. publish new version
+$ vsce publish minor
+```
